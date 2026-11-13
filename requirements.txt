@@ -1,0 +1,8 @@
+pdfplumber
+import re
+from decimal import Decimal, ROUND_HALF_UP
+from io import BytesIO
+
+import pandas as pd
+import pdfplumber
+from openpyxl import load_workbook
